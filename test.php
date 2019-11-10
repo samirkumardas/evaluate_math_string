@@ -17,5 +17,4 @@ $tests = array(
 foreach($tests as $test) {
     echo $test . '= '. evaluate_math_string($test) . '<br />';
 }
-
 ?>

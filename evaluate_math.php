@@ -1,7 +1,5 @@
 <?php 
-
 function evaluate_math_string($str) {
-
     $__eval = function ($str) use(&$__eval){
         $error = false;
         $div_mul = false;
