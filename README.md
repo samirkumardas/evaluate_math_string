@@ -19,3 +19,6 @@ Please check test.php
 | ((5 - 2.5) + 2) * ((5 - 2.5) + 2)      |  20.25 |
 | (((5 - 2.5) + 2) * ( 10 / 5))      |   9 |
 | 5-(-2)      |   7 |
+
+## Caveats
+Please be noted that for the sake of simplicity, this function will not raise any errors in case of the syntax problem. It will simply end up with zero or an ambiguous output. You must provide a valid syntax to get the correct result. 
